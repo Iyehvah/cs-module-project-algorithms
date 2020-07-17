@@ -5,7 +5,15 @@ Returns: an integer
 def eating_cookies(n):
     # Your code here
 
-    pass
+    if n <= 0:
+        return 0
+    elif n == 1:
+        return 1
+    elif n == 2:
+        return 2
+    elif n == 3:
+        return 4
+    elif n == 
 
 if __name__ == "__main__":
     # Use the main function here to test out your implementation
